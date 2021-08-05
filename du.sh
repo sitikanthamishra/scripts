@@ -2,7 +2,7 @@
 
 dt=`date +%F`
 
-df -BG /> /tmp/du-$dt
+df -BM /> /tmp/du-$dt
 
 while read line
 do
